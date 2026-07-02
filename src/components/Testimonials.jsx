@@ -1,5 +1,6 @@
 // Testimonials.jsx
 "use client";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -56,7 +57,7 @@ const Card = ({ t, i }) => (
     </div>
     <p className="text-slate-600 leading-7 text-[15px] mb-6">"{t.text}"</p>
     <div className="flex items-center gap-3">
-      <img src={t.image} alt={t.name} className="w-12 h-12 rounded-full object-cover"/>
+      <Image src={t.image} alt={t.name} className="w-12 h-12 rounded-full object-cover"/>
       <div>
         <p className="font-semibold text-slate-900">{t.name}</p>
         <p className="text-blue-600 text-sm">{t.role}</p>
