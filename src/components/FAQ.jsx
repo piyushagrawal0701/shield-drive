@@ -52,7 +52,7 @@ const FAQ = () => {
           </h2>
 
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto leading-7">
-            Have questions about comparing auto insurance quotes? We've answered
+            Have questions about comparing auto insurance quotes? We&apos;ve answered
             the most common questions to help you get started with confidence.
           </p>
         </div>

@@ -104,7 +104,7 @@ export default async function AdminPage() {
             <div>
 
               <p className="text-sm text-slate-500">
-                Today's Leads
+                Today&apos;s Leads
               </p>
 
               <h2 className="mt-2 text-4xl font-bold">
