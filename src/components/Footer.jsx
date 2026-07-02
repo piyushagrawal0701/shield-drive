@@ -62,7 +62,7 @@ const Footer = () => {
 
           <ul className="space-y-3 text-slate-400">
             <li>support@shielddrive.com</li>
-            <li>+1 (800) 123-4567</li>
+            <li>+91 8839170393</li>
             <li>Available 24/7</li>
             <li>Help Center</li>
           </ul>
