@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 export default function CTA() {
   const scrollToQuote = () => {
     const formSection = document.getElementById("quote-form");
@@ -44,20 +44,26 @@ export default function CTA() {
             <div className="inline-flex items-center gap-3 rounded-full border border-blue-400/30 bg-blue-500/10 px-5 py-2">
 
               <div className="flex -space-x-3">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=100"
+                  width={32}
+                  height={32}
                   alt=""
                   className="h-10 w-10 rounded-full border-2 border-white object-cover"
                 />
 
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=100"
+                    width={32}
+                  height={32}
                   alt=""
                   className="h-10 w-10 rounded-full border-2 border-white object-cover"
                 />
 
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=100"
+                    width={32}
+                  height={32}
                   alt=""
                   className="h-10 w-10 rounded-full border-2 border-white object-cover"
                 />

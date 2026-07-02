@@ -7,9 +7,9 @@ export default function TrustedSection() {
         </h2>
 
         <p className="text-slate-500 text-center mt-4 max-w-2xl mx-auto">
-          We're committed to making auto insurance shopping simple, transparent,
+          We&apos;re committed to making auto insurance shopping simple, transparent,
           and stress-free. Compare quotes from trusted providers and find the
-          coverage that's right for you.
+          coverage that&apos;s right for you.
         </p>
 
         <div className="relative max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-8 md:px-0 pt-20">

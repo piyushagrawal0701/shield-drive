@@ -1,6 +1,7 @@
 "use client";
 
 import LeadForm from "./LeadForm";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -56,27 +57,35 @@ const Hero = () => {
           {/* Social Proof */}
           <div className="flex items-center mt-10">
             <div className="flex -space-x-3 pr-4">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200"
                 alt="customer"
+                width={40}
+                height={40}
                 className="size-10 object-cover rounded-full border-2 border-white"
               />
 
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200"
                 alt="customer"
+                width={40}
+                height={40}
                 className="size-10 object-cover rounded-full border-2 border-white"
               />
 
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200"
                 alt="customer"
+                width={40}
+                height={40}
                 className="size-10 object-cover rounded-full border-2 border-white"
               />
 
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200"
                 alt="customer"
+                width={40}
+                height={40}
                 className="size-10 object-cover rounded-full border-2 border-white"
               />
             </div>
@@ -89,8 +98,8 @@ const Hero = () => {
                     <svg
                       key={i}
                       xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
+                      width={16}
+                      height={16}
                       viewBox="0 0 24 24"
                       fill="#FFB800"
                       className="mr-0.5"
